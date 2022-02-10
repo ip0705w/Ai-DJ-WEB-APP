@@ -1,0 +1,38 @@
+body{
+  background-image:url("https://wallpaperaccess.com/full/782148.jpg");
+  background-size:contain;
+  background-position:center;
+}
+
+#sp{
+  float:left;
+}
+
+#vo{
+  float:right;
+}
+
+#image{
+  width:200px;
+  height:200px;
+  border-radius:10px
+}
+
+#img{
+  width:200px;
+  height:200px;
+  border-radius:10px;
+}
+#speed, #vol{
+  color:white;
+  background-color:red;
+    font-size:20px;
+  font-weight:bold;
+  margin-top:10px;
+    border-radius:10px;
+  
+}
+canvas{
+  border-radius:15px;
+    border:1px solid white;
+}
