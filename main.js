@@ -3,9 +3,9 @@ leftWristY=0
 rigthWristX=0
 rigthWristY=0
 
-/*function preload(){
+function preload(){
   sound=loadSound("music.mp3");
-}*/
+}
 
 function setup(){
   canvas=createCanvas(400,400);
@@ -29,7 +29,7 @@ function draw(){
 }
 function start(){
   sound.play();
-  sound.volume(1);
+  sound.setVolume(1);
   sound.rate(1);
 }
 
